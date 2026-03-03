@@ -91,13 +91,13 @@ async def support(client, CallbackQuery, _):
     [
         [
             InlineKeyboardButton(
-                text="👑 ᴅᴇᴠᴇʟᴏᴘᴇʀ",
+                text="𝐒ᴀɴsᴋᴀʀɪ 𝐁ᴀʟᴀᴋ 🎀",
                 url=f"https://t.me/{config.OWNER_USERNAME}"
             ),
         ],
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ 🥀", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ 🥀", url=config.SUPPORT_CHANNEL),
         ],
         [
             InlineKeyboardButton(
