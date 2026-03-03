@@ -29,6 +29,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 # Set this to true if you want post ads automatically
 ADS_MODE = getenv("ADS_MODE", None)
 
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME")
+
+
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", 0))
 
