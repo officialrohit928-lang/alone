@@ -88,24 +88,24 @@ async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_text(
         text="ʜᴇʀᴇ ᴀʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴀɴᴛ ʟɪɴᴋꜱ.",
         reply_markup=InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton(
-                text="𝐒ᴀɴsᴋᴀʀɪ 𝐁ᴀʟᴀᴋ 🎀",
-                url=f"https://t.me/{config.OWNER_USERNAME}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ 🥀", url=config.SUPPORT_CHAT),
-            InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ 🥀", url=config.SUPPORT_CHANNEL),
-        ],
-        [
-            InlineKeyboardButton(
-                text="ʙᴀᴄᴋ", callback_data="settingsback_helper"
-            )
-        ],
-    ]
-        )
+            [
+                [
+                    InlineKeyboardButton(
+                        text="𝐒ᴀɴsᴋᴀʀɪ 𝐁ᴀʟᴀᴋ 🎀",
+                        url=f"https://t.me/{config.OWNER_USERNAME}",
+                    ),
+                ],
+                [
+                    InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ 🥀", url=config.SUPPORT_CHAT),
+                    InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ 🥀", url=config.SUPPORT_CHANNEL),
+                ],
+                [
+                    InlineKeyboardButton(
+                        text="ʙᴀᴄᴋ", callback_data="settingsback_helper"
+                    )
+                ],
+            ]
+        ),
     )
 
 
